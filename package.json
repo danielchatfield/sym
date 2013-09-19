@@ -1,0 +1,45 @@
+{
+  "name": "linky",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "linky": "cli.js"
+  },
+  "description": "A small utility for creating Symbolic links.",
+  "keywords": [
+    "symbolic",
+    "junction",
+    "links",
+    "symbolic links",
+    "junction links"
+  ],
+  "homepage": "https://github.com/danielchatfield/linky",
+  "bugs": "https://github.com/danielchatfield/linky/issues",
+  "author": {
+    "name": "Daniel Chatfield",
+    "email": "chatfielddaniel@gmail.com",
+    "url": "http://www.danielchatfield.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielchatfield/linky"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  },
+  "dependencies": {
+    "graceful-fs": "~2.0.1",
+    "mkdirp": "~0.3.5",
+    "optimist": "~0.6.0",
+    "configstore": "~0.1.5",
+    "chalk": "~0.2.1",
+    "update-notifier": "~0.1.5"
+  }
+}
