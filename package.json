@@ -1,9 +1,9 @@
 {
-  "name": "linky",
+  "name": "sym",
   "version": "0.0.1",
   "main": "index.js",
   "bin": {
-    "linky": "cli.js"
+    "sym": "cli.js"
   },
   "description": "A small utility for creating Symbolic links.",
   "keywords": [
@@ -13,7 +13,7 @@
     "symbolic links",
     "junction links"
   ],
-  "homepage": "https://github.com/danielchatfield/linky",
+  "homepage": "https://github.com/danielchatfield/sym",
   "bugs": "https://github.com/danielchatfield/linky/issues",
   "author": {
     "name": "Daniel Chatfield",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielchatfield/linky"
+    "url": "https://github.com/danielchatfield/sym"
   },
   "licenses": [
     {
