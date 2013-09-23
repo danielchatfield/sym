@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "bin": {
-    "sym": "cli.js"
+    "sym": "cli.js",
+    "linky": "cli.js"
   },
   "description": "A small utility for creating Symbolic links.",
   "keywords": [
