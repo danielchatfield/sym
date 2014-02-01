@@ -39,8 +39,8 @@
     "graceful-fs": "~2.0.1",
     "mkdirp": "~0.3.5",
     "optimist": "~0.6.0",
-    "configstore": "~0.1.5",
-    "chalk": "~0.2.1",
-    "update-notifier": "~0.1.5"
+    "configstore": "~0.2.0",
+    "chalk": "~0.4.0",
+    "update-notifier": "~0.1.7"
   }
 }
