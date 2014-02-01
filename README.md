@@ -1,4 +1,4 @@
-# sym 
+# sym
 
 A small utility for creating Symbolic/Junction links
 
@@ -22,15 +22,6 @@ This command selects the current working directory as the destination directory.
 ### `sym link --src=/some/path --dest=/some/other/path`
 
 This command makes the link using the selected paths or you can specify the source and destination paths via their respective command line flags.
-
-## Shortcuts
-
-It is common to want to create a link after either selecting the source or the destination (depending on in which order you selected them). You can do this by prepending the command with an exclamation mark:
-
-```
-$ sym src
-$ sym !dest
-```
 
 
 
