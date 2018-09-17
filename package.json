@@ -31,16 +31,17 @@
     }
   ],
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.0"
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-nodeunit": "~2.0.0",
+    "grunt-contrib-watch": "~1.1.0"
   },
   "dependencies": {
-    "graceful-fs": "~2.0.1",
-    "mkdirp": "~0.3.5",
+    "chalk": "~2.4.1",
+    "configstore": "~4.0.0",
+    "graceful-fs": "~4.1.11",
+    "mkdirp": "~0.5.1",
     "optimist": "~0.6.0",
-    "configstore": "~0.2.0",
-    "chalk": "~0.4.0",
-    "update-notifier": "~0.1.7"
+    "update-notifier": "~2.5.0"
   }
 }

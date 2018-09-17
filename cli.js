@@ -4,8 +4,9 @@
 var chalk = require('chalk');
 var Configstore = require('configstore');
 var linky = require('./index.js');
+var pkg = require('./package.json');
 var notifier = require('update-notifier')({
-  packagePath: './package.json'
+  pkg
 });
 var path = require('path');
 var optimist = require('optimist');
