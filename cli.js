@@ -6,7 +6,7 @@ var Configstore = require('configstore');
 var linky = require('./index.js');
 var pkg = require('./package.json');
 var notifier = require('update-notifier')({
-  pkg
+  pkg: pkg
 });
 var path = require('path');
 var optimist = require('optimist');
